@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=Signika+Negative:400,700);
+
+html, body {
+  height:100%;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 25px;
+  background: url('images/winter.jpg') ;
+  background-size: 100%;
+}
+
+
+.about {
+  font-weight: bolder;
+
+
+}
+.skills-title__skills {
+  text-align: center;
+  font-weight: bold;
+}
+
+div {
+  overflow: hidden;
+}
+
+a {
+  color: #171ada;
+  text-decoration: underline;
+  transition: 500ms;
+}
+a:hover {
+  color: #26a1ff;
+}
+
+p {
+  padding: 0 5%;
+}
+
+img {
+  box-shadow: 0px 0px 4px #000;
+  display: flex;
+  flex-shrink: inherit;
+}
+
+#header {
+  background: #010105;
+  padding: 1%;
+  overflow: hidden;
+  height: 55px;
+
+}
+#header img {
+  float: left;
+  box-shadow: none;
+}
+#header ul {
+  list-style: none;
+  /* float: left; */
+  padding-left: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#header ul li {
+  /* float: left; */
+  margin-left: 10px;
+  font-size: 20px;
+
+}
+
+.fullscreen {
+  height: 95%;
+  position: relative;
+}
+.fullscreen .header {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 0px 0px 2px #000;
+}
+
+.white {
+  background: #eeeeec;
+  padding: 0 5%;
+  
+}
+.nobg {
+  background: none;
+  padding: 0 5%;
+  color: #fff;
+  text-shadow: 0px 0px 4px #000;
+}
+.semitrans {
+  background: rgba(255, 255, 255, .5);
+  padding: 0 5%;
+}
+.dark {
+  text-align: left;
+  color: #ececee;
+  background: #010105;
+  margin-right: 4%;
+  /* padding: 0 5%; */
+}
+
+.nopadding {
+  padding: 0;
+}
+
+.floatleft {
+  float: left;
+  margin: 2%;
+  max-width: 100%;
+  
+}
+.floatright {
+  float: right;
+  margin: 2%;
+}
+
+.more {
+  text-align: center;
+  font-size: 17px;
+}
+.more a {
+  color: #aaa;
+  text-decoration: none;
+  cursor: pointer;
+}
+.more a:hover {
+  color: #777;
+}
+
+.git__projects {
+  display: flex;
+  justify-content: center;
+}
+.showplay  {
+  object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+.showplay img {
+  
+  display: flex;
+  justify-content: center;
+}
+
+.codingSkills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  margin-bottom: 25px;
+  box-sizing: content-box;
+  list-style-type: none;
+  padding: 1em;
+  opacity: 70%;
+}
+
+.skills {
+  
+  background-color: black;
+  color: lightcyan;
+
+  padding: .5em;
+  max-width: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav--item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.navLink {
+  color: #eeeeec;
+}
+
+.skills-title {
+  text-align: center;
+  
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-bottom: 2em;
+}
+
+.contact--item {
+
+
+}
