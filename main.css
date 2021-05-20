@@ -6,17 +6,17 @@ html, body {
   font-size: 25px;
   background: url('images/winter.jpg') ;
   background-size: 100%;
+  background-repeat:no-repeat;
 }
 
 
 .about {
   font-weight: bolder;
-
-
-}
-.skills-title__skills {
-  text-align: center;
-  font-weight: bold;
+  background-color: #010105;
+  color: lightcyan;
+  opacity: 60%;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
 div {
@@ -96,6 +96,7 @@ img {
 .semitrans {
   background: rgba(255, 255, 255, .5);
   padding: 0 5%;
+  margin-top: 3em;
 }
 .dark {
   text-align: left;
@@ -153,11 +154,9 @@ img {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   margin-bottom: 25px;
   box-sizing: content-box;
   list-style-type: none;
-  padding: 1em;
   opacity: 70%;
 }
 
@@ -165,9 +164,15 @@ img {
   
   background-color: black;
   color: lightcyan;
-
   padding: .5em;
   max-width: auto;
+}
+
+
+.skills-title__skills {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 4.5em;
 }
 
 .nav {
