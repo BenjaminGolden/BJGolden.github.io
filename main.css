@@ -207,7 +207,19 @@ img {
   padding-bottom: 2em;
 }
 
-.contact--item {
+.resume{
+  display: flex;
+  object-fit: contain;
+  flex-shrink: inherit;
+    height: 75%;
+    width: 75%;
+    margin: 2rem ;
+   
+}
 
-
+.footer {
+  width: 100%;
+  text-align: left;
+  color: #ececee;
+  background: #010105;
 }
